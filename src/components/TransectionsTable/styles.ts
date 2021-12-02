@@ -16,7 +16,7 @@ export const Container = styled.div`
         line-height: 1.5rem;
     }
 
-    td {
+   td {
         padding: 1rem 2rem;
         border: 0;
         background: var(--shape);
@@ -34,6 +34,19 @@ export const Container = styled.div`
         &.withdraw {
             color: var(--red);
         }
+    }
+
+    .title {
+        color: var(--text-body);
+        font-weight: 400;
+        padding: 1rem 2rem;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+
+    b {
+        color: #004679;
+        margin-left: 2%;
     }
 
 `;

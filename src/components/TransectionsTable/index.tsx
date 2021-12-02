@@ -10,30 +10,37 @@ export function TransectionsTable() {
 
     return (
         <Container>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Modelo</th>
-                        <th>Marca</th>
-                        <th>Memória</th>
-                        <th>SSD</th>
-                        <th>Colaborador</th>
-                        <th>Entrega</th>
-                    </tr>
-                </thead>
-                
-                <tbody>
-                    <tr>
-                        <td>Notebook</td>
-                        <td className="deposit">ASUS</td>
-                        <td>8 GB</td>
-                        <td>Sim</td>
-                        <td>Artur</td>
-                        <td>20 / 11 /2021</td>
-                    </tr>
 
-                </tbody>
-            </table>
+            <p className="title">
+                Modelo: 
+                <b>Notebook</b> 
+            </p>
+
+            <p className="title">
+                Marca: 
+                <b>ASUS</b> 
+            </p>
+
+            <p className="title">
+                Memória: 
+                <b>8 GB</b> 
+            </p>
+
+            <p className="title">
+                SSD: 
+                <b>Sim - 250 GB</b> 
+            </p>
+
+            <p className="title">
+                Colaborador: 
+                <b>Artur</b> 
+            </p>
+
+            <p className="title">
+                Entregue: 
+                <b>20 /11 /2021</b> 
+            </p>
+
         </Container>
     );
 }
