@@ -12,7 +12,7 @@ export function TransectionsTable() {
         <Container>
 
             <p className="title">
-                Equipamento: 
+                Modelo: 
                 <b>Mouse</b> 
             </p>
 
