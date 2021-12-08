@@ -31,27 +31,27 @@ export function NewTransactionModal ({isOpen, onRequestClose }: NewTransactionMo
             <h2>Novo Equipamento</h2>
 
             <input 
-                placeholder="Notebook"
+                placeholder="Mouse"
             />
 
             <input 
-                placeholder="ASUS"
+                placeholder="Logitech"
             />
 
             <input 
-                placeholder="8 GB"
+                placeholder=" -- "
             />
 
             <input 
-                placeholder="SSD 250"
+                placeholder=" -- "
             />
 
             <input 
-                placeholder="Artur"
+                placeholder="Plantão"
             />
 
             <input 
-                placeholder="22 / 11 / 2021"
+                placeholder="08 / 12 / 2021"
             />
 
             <button type="submit">
